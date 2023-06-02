@@ -41,4 +41,12 @@ function mostrarAlerta(){
 /*document.getElementById('boton1').onclick = function() {
      alert ("Hey Alerta Wey!")}*/
 
+/* Paso de parametros a una funcion */
+let x= document.getElementById("numero1").value;
+let y= document.getElementById("numero2").value;
 
+
+document.getElementById("suma").innerHTML=sumar(45,34);
+function sumar(a,b){
+    return a+b;
+}
