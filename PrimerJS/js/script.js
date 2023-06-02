@@ -30,5 +30,15 @@ document.getElementById("nuevoNombre").innerHTML=nombre;
 // caracteristicas de javaScript .... no declarar el tipo de dato
 numero1="uno";
 suma=numero1+numero2;
-console.log(suma);
+console.log(suma); //es una manera de visualizar una salida en javaScript
+
+/*crear mi primera función-> una serie de instrucciones que se ejecutaran cuando sea llamada */
+function mostrarAlerta(){
+    alert("Hola Chicos")
+    document.getElementById("parrafo2").innerHTML="Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, autem sequi, ipsa minus odit a dolorum, inventore quis laborum earum veniam ipsum deserunt repellat dignissimos non. Tenetur officiis pariatur eos?"
+}
+//Otra manera de llamarlo 
+/*document.getElementById('boton1').onclick = function() {
+     alert ("Hey Alerta Wey!")}*/
+
 
