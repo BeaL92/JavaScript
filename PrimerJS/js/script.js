@@ -42,9 +42,12 @@ function mostrarAlerta(){
      alert ("Hey Alerta Wey!")}*/
 
 /* Paso de parametros a una funcion */
-let x= document.getElementById("numero1").value;
-let y= document.getElementById("numero2").value;
-
+//casting-> cambiar de un tipo a otro de caracteres-> numeros
+function sumar2(){
+let x= parseInt( document.getElementById("numero1").value);
+let y= parseInt(document.getElementById("numero2").value);
+document.getElementById("suma2").innerHTML="El valor de x es " + x + " El valor de y es " + y + " y la suma de los dos valores es "+ (x+y);
+}
 
 document.getElementById("suma").innerHTML=sumar(45,34);
 function sumar(a,b){
