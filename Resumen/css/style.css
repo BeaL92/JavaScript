@@ -1,0 +1,24 @@
+body{
+    height: 70%;
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+.div{
+    display: block;
+   
+}
+
+.menu{
+    background-color: rgb(122, 154, 122);
+    padding: 1px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu li{
+    padding: 25px;
+    width: 25%;
+}
