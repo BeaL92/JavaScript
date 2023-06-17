@@ -2,22 +2,21 @@ body{
     height: 70%;
 }
 section{
+    
     width: 80%;
     margin: auto;
 }
-.div{
-    display: block;
-   
-}
 
-.menu{
+
+
+.menuP{
     background-color: rgb(122, 154, 122);
-    padding: 1px;
-}
-.menu{
+    padding: 1px;  
     list-style: none;
     display: flex;
 }
+
+
 .menu li{
     padding: 25px;
     width: 25%;
