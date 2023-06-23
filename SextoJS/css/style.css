@@ -9,6 +9,7 @@ header,.botones{
     text-align: center;
     margin: auto;
     display: flex;
+   
 }
 .botones button, .botones a{
     background-color: violet;
@@ -16,5 +17,4 @@ header,.botones{
     padding: 15px;
     box-shadow: 2px 2px grey;
     margin:auto;
-
 }

@@ -12,10 +12,10 @@ for(let i=0;i<10;i++){
 console.log("salida del bucle");
 
 /**
- * La idea del funcionamiento de un bucle for es la siguiente: "mientras la condición indicada sse siga cumpliendo, repitela ejecución de las instrucciones definidas dentro del for. Además, depués de cada repetición, actualiza el valor de las variables que se utilizan en la condición"
+ * La idea del funcionamiento de un bucle for es la siguiente: "mientras la condición indicada se siga cumpliendo, repitela ejecución de las instrucciones definidas dentro del for. Además, depués de cada repetición, actualiza el valor de las variables que se utilizan en la condición"
  */
 
-//ejemplo de un bucle con loss diferentes <hx> de Html
+//ejemplo de un bucle con los diferentes <hx> de Html
 function salidaH(){
 for (let i=1;i<=6;i++){
     document.write("<h"+i+">"+"Encabezado de nivel "+i+"</h"+i+">");

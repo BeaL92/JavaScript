@@ -29,7 +29,7 @@ Comentario de Bloque
 //     debe ser en minuscula o camello-> nombreDel Usuario
 //     no debe contener espacios (no-> nombre el Usuario)
 //     se puede utilizar barra baja _ tanto en el comienzo como
-//     en el contenido del nombe. Una buena práctica es  
+//     en el contenido del nombre. Una buena práctica es  
 //     comenzar con letras o con el simbolo del $
 
 let nombre="Maria Perez"; //las comillas (dobles o simple) indican que es una cadena de caracteres 

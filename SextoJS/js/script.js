@@ -65,14 +65,14 @@ alert('Es par sale del bucle');
 }
 
 /**
- * Bucle Do While: hecer mientras..
+ * Bucle Do While: hacer mientras..
  * 
  * Es igual al while con la diferencia que siempre se ejecuta al menos una vez
  * do{
  * //bloque de instruccuiones...
  * }while (condición);
  *
- * Ejemplo: Pedimos al usuario que escriba ek nombre Mariay mientras no lo haga lo vulve a pedir
+ * Ejemplo: Pedimos al usuario que escriba el nombre Maria y mientras no lo haga lo vulve a pedir
  *  
  */
 function nombreDoWhile(){
