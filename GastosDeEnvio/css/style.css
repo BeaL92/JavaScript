@@ -1,0 +1,44 @@
+.logo img{
+    max-width: 15%;
+    float: left;
+    padding-left: 50px;
+
+
+}
+.titulo h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0F2F62;
+    padding-top: 50px;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+.logo{
+    max-width: 40%;
+}
+.titulo{
+    max-width: 60%;
+}
+section{
+    clear: both;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+.boton{
+    background-color: #0F2F62;
+    border: 1px solid #0F2F62;
+    padding: 10px;
+    color:white;
+}
+.boton:hover{
+    color: #0F2F62;
+    border:1px solid #0F2F62;
+    background-color: aliceblue;
+}
+input#peso{
+    padding: 10px 0;
+    
+}
