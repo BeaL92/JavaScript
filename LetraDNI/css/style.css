@@ -18,3 +18,10 @@ h1{
     font-style: italic;
 }
 
+@media(max-width:800px) and (min-width:1200px) {
+    .contenedor{
+        width: 100%;
+    }
+   
+}
+

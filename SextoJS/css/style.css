@@ -3,12 +3,13 @@ body{
     background-color: aliceblue;
     color: blue;
     font-size: large;
+    text-align: center;
 }
 header,.botones{
-    width: 50%;
+    width: 100%;
     text-align: center;
     margin: auto;
-    display: flex;
+    
    
 }
 .botones button, .botones a{
@@ -18,3 +19,9 @@ header,.botones{
     box-shadow: 2px 2px grey;
     margin:auto;
 }
+.botones{
+    display: flex;
+}
+
+
+

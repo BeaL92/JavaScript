@@ -1,6 +1,6 @@
 .logo img{
     max-width: 15%;
-    float: left;
+    float: flex;
     padding-left: 50px;
 
 
@@ -22,7 +22,7 @@
 }
 section{
     clear: both;
-    text-align: center;
+    text-align: center !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
 }
@@ -40,5 +40,47 @@ section{
 }
 input#peso{
     padding: 10px 0;
+    
+}
+@media(width<=500px){
+    header{
+        width: 100%;
+        
+    }
+    .logo img{
+        max-width: 100%;
+        float: none;
+        padding-left: 0;
+    }
+    .logo{
+        margin: auto;
+    }
+    body{
+        width: 80%;
+        height: auto; 
+    }
+    .titulo{
+        width: 100% !important;
+        margin: auto;
+    }
+    .titulo h1{
+        font-size: 2em;
+        text-align:center;
+        margin:auto;
+        padding-top: 0;
+        width: 100%;
+    }
+    .boton,input{
+        margin: 5% 0;
+    }
+    input{
+        width: 75%;
+    }
+
+    section, .titulo{
+        width: 100%;
+        padding-top: 2% 0;
+        margin: auto;
+    }
     
 }
