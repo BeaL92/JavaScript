@@ -1,0 +1,49 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*Display none esconde al elemento y deja libre el espacio que ocupa, es decir, si hay un elemento arriba, abajo o a un lado, este ocupa su lugar
+display: hidden solo esconde el elemento pero deja su espacio tal y como está.
+*/
+
+
+#formTC, #formPP{
+    display: none;
+}
+ h1,h3{
+    text-align: center;
+} 
+
+
+@media (768px<= width<=1280px){  /*Tablet*/
+#form{
+    width: 70%;
+    margin: auto;
+   
+}
+}
+
+@media (width>=1280px){/*PC*/
+    #form{
+    width: 50%;
+    margin: auto;
+
+}
+}
+
+@media (width<767px){/*SmartPhone*/
+    #form{
+    width: 90%;
+    margin: auto;
+}
+.listaFP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+
+
+ 
