@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <div class="topnav">
+        <img src="img/logo.png" alt="logo uship" srcset="">
+        <a class="active" href="index.html">Inicio</a>
+        <a href="eNacio.html">Envio Nacional</a>
+        <a href="eInter.html">Envio Internacional</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div>
+        <img src="img/uship-contacto.png" alt="Señor sacando un paquete del pc" class="imgC">
+      </div>
+      <h4>¿HABLAMOS?</h4>
+      <div class="container">
+      <form action="formC">
+       <p> <label for="fname">Nombre y apellidos*:</label>
+          <input type="text" id="fname" name="firstname" placeholder="Ej:pepe" class="entrada" required></p>
+          <p><label for="email">Email*:</label>
+          <input type="email" id="email" class= "entrada" required></p>
+          <p><label for="tel">Teléfono*:</label>
+          <input type="tel" id="tel" class= "entrada" required></p>
+          <label for="subject">Indica tu consulta</label>
+          <textarea id="subject" name="subject" placeholder="Escribe aqui tu consulta" style="height:200px"></textarea>
+
+          <p><button type="button" id="boton">Enviar</button></p>
+      </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uship</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="topnav">
+        <img src="img/logo.png" alt="logo uship" srcset="">
+        <a class="active" href="index.html">Inicio</a>
+        <a href="eNacio.html">Envio Nacional</a>
+        <a href="eInter.html">Envio Internacional</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+      <div class="bg-img">
+
+      <form class="container2">
+     
+      <h2> ¿CUANTO ME VA A COSTAR MI ENVIO?</h2>
+      
+
+      <section>
+        <label for="text">Indica el destino de su envio</label>
+        <select name="destino" id="destino">
+            <option value=""></option>
+            <option value="local">Tu misma Localidad</option>
+            <option value="provin">Tu misma provincia</option>
+            <option value="comu">Tu misma comunidad autónoma</option>
+            <option value="bale">Baleares-Canarias</option>
+            <option value="ceu">Ceuta o Melilla</option>
+            <option value="espa">Resto de España</option>
+            <option value="europa">Europa</option>
+            <option value="mundo">Resto del Mundo</option>
+            <label for="peso"></label>
+        </select>
+        <label for="peso">Indique el peso aproximado</label>
+        <select name="peso" id="peso">
+            <option value=""></option>
+            <option value="0.5">Hasta 0.5</option>
+            <option value="5">Hasta 5</option>
+            <option value="10">Hasta 10</option>
+            <option value="20">Hasta 20</option>
+        </select>
+        <button  type="boton" class="boton2" onclick="calcular()">¿Cuánto cuesta?</button>
+        <h3 id="resultados"></h3>
+        </section>
+    </form>
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

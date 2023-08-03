@@ -2,7 +2,7 @@
 //variables globales: pueden ser leidas por todas las funciones
 let mensajeError=document.querySelector("#mensaje");
 let msn="";// la cadena de mensaje de errores
-window.addEventListener("load", ()=>{
+
     /**
      * 
      * Crear efecto de las imagenes
@@ -80,8 +80,6 @@ window.addEventListener("load", ()=>{
         
     })
     })
-})
-
 
 });
 function validarNombre(nombre){
